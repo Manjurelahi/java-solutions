@@ -1,5 +1,5 @@
 class SingletonDoubleCheckClass {
-    private static SingletonDoubleCheckClass singletonClass;
+    private static volatile SingletonDoubleCheckClass singletonClass;
 
     private SingletonDoubleCheckClass() {}
 
